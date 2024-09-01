@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a general password manager",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "janardhana rajesh keshanakurthi (scripting_coder)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "params": "^0.1.1"
+  }
+}
